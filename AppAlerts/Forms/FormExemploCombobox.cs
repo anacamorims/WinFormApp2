@@ -33,7 +33,7 @@ namespace AppAlerts.Forms
             decimal valorCompra = 0;
             decimal desconto = 0;
             decimal valorComDesconto = 0;
-
+            hhhhllll
             
 
         }
