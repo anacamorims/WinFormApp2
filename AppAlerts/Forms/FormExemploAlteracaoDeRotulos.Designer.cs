@@ -92,6 +92,7 @@
             this.btnCalcular.TabIndex = 5;
             this.btnCalcular.Text = "CALCULAR";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnNovo
             // 
@@ -102,6 +103,7 @@
             this.btnNovo.TabIndex = 6;
             this.btnNovo.Text = "NOVO";
             this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // label4
             // 

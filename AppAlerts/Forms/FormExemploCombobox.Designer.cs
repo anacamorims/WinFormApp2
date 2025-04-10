@@ -68,6 +68,7 @@
             this.cbTipoDeCliente.Name = "cbTipoDeCliente";
             this.cbTipoDeCliente.Size = new System.Drawing.Size(238, 21);
             this.cbTipoDeCliente.TabIndex = 2;
+            this.cbTipoDeCliente.SelectedIndexChanged += new System.EventHandler(this.cbTipoDeCliente_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -105,6 +106,7 @@
             this.btnCalcular.TabIndex = 6;
             this.btnCalcular.Text = "CALCULAR";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // txtPercDesc
             // 
@@ -158,6 +160,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormExemploCombobox";
             this.Text = "FormExemploCombobox";
+            this.Load += new System.EventHandler(this.FormExemploCombobox_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

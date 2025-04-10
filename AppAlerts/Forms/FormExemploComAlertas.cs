@@ -26,6 +26,7 @@ namespace AppAlerts.Forms
             Valor1 = Convert.ToDouble(txtValor1.Text);
             Valor2 = Convert.ToDouble(txtValor2.Text);
             Resultado = Valor1 / Valor2; 
+            textResultado.Text = Resultado.ToString();
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
@@ -33,6 +34,9 @@ namespace AppAlerts.Forms
             txtValor1.Clear();
             txtValor2.Clear();
             txtValor1.Select();
+            textResultado.Clear();
         }
+
+        
     }
 }
